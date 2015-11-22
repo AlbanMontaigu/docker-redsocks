@@ -32,9 +32,3 @@ Use docker stop to halt the container. The iptables rules should be reversed. If
 ```
 iptables-save | grep -v REDSOCKS | iptables-restore
 ```
-
-## Build
-
-Build the image with `make`.
-
-> Use `make help` to see available commands for this image.
